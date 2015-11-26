@@ -1,1 +1,1 @@
-git add . && git commit -m "Committed with push script" && git push
+git status && git add . && git commit -m "Auto Commit" && git push
