@@ -1,4 +1,4 @@
-<h1>Create An Article</h1>
+<h1>Edit existing article</h1>
 <% if @article.errors.any? %>
 <h2>The following errors prevented the article from being created:</h2>
 <ul>
@@ -13,5 +13,6 @@
   <%= form.text_field :title %></p>
   <p><%= form.label :description %><br>
   <%= form.text_area :description %></p>
+  <%= form.submit %>
 <% end %>
-<%= form.submit %><%= link_to "Back to All Articles", articles_path %>
+<%= link_to "Back to All Articles", articles_path %>
