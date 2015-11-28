@@ -19,9 +19,22 @@ $navbar-default-bg: #08088A;
 }
 
 .jumbotron {
-  
+  background-image:asset-url("homepage.jpg");
+  background-size:cover;
+  height:550px;
+  h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+  }
 }
 
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
+}
 
 //////////////////////////////////////////////////////
 // All Styling Goes Above This Section.            //
